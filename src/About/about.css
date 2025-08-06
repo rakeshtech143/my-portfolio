@@ -1,0 +1,28 @@
+.stats-item h3 {
+    color: #222222;
+    font-size: 48px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.stats-item h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #34b7a7;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.stats-item p {
+    color: color-mix(in srgb, #444444, transparent 40%);
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}

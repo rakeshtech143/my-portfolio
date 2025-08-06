@@ -1,0 +1,45 @@
+.header .logo {
+    line-height: 1;
+}
+.header .logo h1 {
+    font-size: 32px;
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #222222;
+}
+.navmenu  {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navmenu a, .navmenu a:focus {
+    color: #444444;
+    font-size: 15px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    padding: 5px 8px;
+    transition: 0.3s;
+    position: relative;
+}
+.navmenu a:hover {
+    color: color-mix(in srgb, #34b7a7, transparent 25%);
+    text-decoration: none;
+}
+.navmenu a:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0px;
+    left: 8px;
+    background-color: #34b7a7;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}

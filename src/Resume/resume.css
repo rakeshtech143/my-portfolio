@@ -9,7 +9,7 @@ section, .section {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     position: relative;
 }
 .section-title h2:after {

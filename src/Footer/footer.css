@@ -1,7 +1,7 @@
 .footer {
     color: #444444;
     background-color: #e9e8e6;
-    font-size: 14px;
+    font-size: 25px;
     padding: 40px 0;
     position: relative;
 }
@@ -13,7 +13,7 @@
     margin-bottom: 0;
 }
 .footer .social-links {
-    margin-top: 20px;
+    margin-top: 20px 0px;
 }
 .footer .social-links a {
     display: flex;
